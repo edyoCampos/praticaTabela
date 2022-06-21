@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css">
+        <title>Prática - Tabelas HTML</title>
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1> Vamos praticar! </h1>
+            </header>
+            <section>
+                <h2>Resolução Exercício 1</h2>
+                <table class="border table-size">
+                    <tbody>
+                        <tr>
+                            <td class="border cell-size">1</td>
+                            <td class="border cell-size">2</td>
+                            <td class="border cell-size">3</td>
+                        </tr>
+                        <tr>
+                            <td class="border cell-size center">4</td>
+                            <td class="border cell-size center">5</td>
+                            <td class="border cell-size center">6</td>
+                        </tr>
+                        <tr>
+                            <td class="border cell-size right">7</td>
+                            <td class="border cell-size right">8</td>
+                            <td class="border cell-size right">9</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="border table-size">
+                    <tbody>
+                        <tr>
+                            <td class="border cell-size">1</td>
+                            <td class="border cell-size">2</td>
+                            <td class="border cell-size">3</td>
+                        </tr>
+                        <tr>
+                            <td class="border cell-size center" colspan="3">4</td>
+                        </tr>
+                        <tr>
+                            <td class="border cell-size">7</td>
+                            <td class="border cell-size">8</td>
+                            <td class="border cell-size">9</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="border table-size">
+                    <tbody>
+                        <tr>
+                            <td class="border cell-size">1</td>
+                            <td class="border cell-size">2</td>
+                            <td class="border cell-size center" rowspan="3">3</td>
+                        </tr>
+                        <tr>
+                            <td class="border cell-size center" colspan="2">4</td>
+                        </tr>
+                        <tr>
+                            <td class="border cell-size">5</td>
+                            <td class="border cell-size">6</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <h2>Resolução Exercício 2</h2>
+                <table class="border table-size">
+                    <tbody>
+                        <tr >
+                            <td class="center border" colspan="4"  style="height: 50px;"> TOPO</td>
+                        </tr>
+                        <tr>
+                            <td class="center border" rowspan="2" style="height: 400px;">MENU</td>
+                            <td class="center border" rowspan="2" >CONTEÚDO</td>
+                        </tr>
+                        <tr>
+
+                        </tr>
+                        <tr>
+                            <td class="center border"colspan="2" style="height: 25px;">RODAPÉ</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <h2>Resolução Exercício 3</h2> // poderiar ter alinhado lado a lado com display, mas não usei pois não foi falado ainda em aula
+                <section>
+                    <table class="border table-size" style="width: 400px; height:400px;">
+                        <tbody>
+                            <tr>
+                                <td class="border" colspan="3"></td>
+                            </tr>
+                            <tr>
+                                <td class="border" ></td>
+                                <td class="border" ></td>
+                                <td class="border" ></td>
+                            </tr>
+                            <tr>
+                                <td class="border" ></td>
+                                <td class="border" ></td>
+                                <td class="border" ></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <section>
+                    <table class="border table-size" style="width: 400px; height:400px;">
+                        <tbody>
+                            <tr>
+                                <td class="border" rowspan="3"></td>
+                                <td class="border" ></td>
+                                <td class="border" ></td>
+                            </tr>
+                            <tr>
+                                <td class="border" ></td>
+                                <td class="border" ></td>
+                            </tr>
+                            <tr>
+                                <td class="border" ></td>
+                                <td class="border" ></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <section>
+                    <table class="border table-size" style="width: 400px; height:400px;">
+                        <tbody>
+                            <tr>
+                                <td class="border" colspan="5"></td>
+                            </tr>
+                            <tr>
+                                <td class="border" rowspan="4"></td>
+                                <td class="border" ></td>
+                                <td class="border" ></td>
+                                <td class="border" ></td>
+                                <td class="border" ></td>
+                            </tr>
+                            <tr>
+                                <td class="border" ></td>
+                                <td class="border" ></td>
+                                <td class="border" rowspan="2"></td>
+                                <td class="border" ></td>
+                            </tr>
+                            <tr>
+                                <td class="border" ></td>
+                                <td class="border" ></td>
+                                <td class="border" ></td>
+                            </tr>
+                            <tr>
+                                <td class="border" colspan="3"></td>
+                                <td class="border" ></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </section>
+        </main>
+    </body>
+</html>
